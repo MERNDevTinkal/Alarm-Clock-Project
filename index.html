@@ -1,0 +1,66 @@
+<html lang="en">
+<!-- Name : Tinkal Kumar
+Email id :  Tinkalkumar67693@gmail.com -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALARM CLOCK CODING NINJAS</title>
+</head>
+
+<body>
+    <div class="center">
+        <h1 class="title"> ALARM&#9200;</h3>
+            <!-- or we can use any alarm pic instead of emojies,i am using emojies to make it simple -->
+            <div>
+                <!-- Display the REAL time -->
+                <h2 id="realtime">Getting the real time</h2>
+
+                <!-- Select time of the alarm to be set(for new alarm) -->
+                <div class="alarmtimebody">
+                    <label>
+                        <div>
+                            <select class="time" id="hr"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="time" id="min"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="time" id="sec"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="time" id="ampm"></select>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Add new alarm, it will also add it to the recent list of alarm -->
+            <button id="setButton">Set Alarm</button>
+
+            <!-- Clear button to stop the alarm sound after it starts ringing -->
+            <button id="setClear">Clear Alarm</button>
+
+            <div>
+                <h3 class="allalarms">Recent Alarms</h3>
+                <hr>
+                <!-- Here will be the list of all recent alarm set by the user -->
+                <ul id="incomplete-alarms">
+
+                </ul>
+            </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
