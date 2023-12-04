@@ -1,7 +1,4 @@
-# Alarm-Clock-Project
-# Alarm Clock Web App
-
-🚀 Welcome to the Alarm Clock Web App project! 🕰️
+# Alarm Clock Web App 🕰️
 
 ## Overview
 
@@ -22,12 +19,18 @@ This simple and user-friendly alarm clock web application allows users to set al
 4. When an alarm triggers, an alert will notify you, and the alarm sound will play.
 5. Click "Clear Alarm" to stop the alarm sound.
 
+## GitHub Pages
+
+GitHub Pages is designed to host your personal, organization, or project pages from a GitHub repository.
+
+Your site is live at [https://merndevtinkal.github.io/Alarm-Clock-Project/](https://merndevtinkal.github.io/Alarm-Clock-Project/). The last deployment was performed by [@MERNDevTinkal](https://github.com/MERNDevTinkal) 2 weeks ago.
+
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE), so feel free to use and modify it according to your needs.
+This project is licensed under the MIT License, so feel free to use and modify it according to your needs.
 
 Enjoy waking up on time with our Alarm Clock Web App! ⏰
